@@ -12,17 +12,33 @@ struct MeetingView: View {
         VStack {
             ProgressView(value: 5, total: 15)
             HStack {
-                VStack {
+                VStack(alignment: .leading) {
                     Text("Seconds Elasped")
+                        .font(.caption)
                     Label("300", systemImage: "hourglass.bottomhalf.fill")
                 }
                 Spacer()
-                VStack {
+                VStack(alignment: .trailing) {
                     Text("Seconds Remaining")
+                        .font(.caption)
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
             }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Time remaining")
+            .accessibilityValue("10 minutes")
+            Circle()
+                .strokeBorder(lineWidth: 24)
+            HStack {
+                Text("Speaker 1 pf 3")
+                Spacer()
+                Button(action: {}) {
+                    Image(systemName: "forward.fill")
+                }
+                .accessibilityLabel("Next speaker")
+            }
         }
+        .padding()
     }
 }
 
