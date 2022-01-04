@@ -3,8 +3,10 @@ import SwiftUI
 struct CardView: View {
     let scrum: DailyScrum
     var body: some View {
-        Text(scrum.title)
-            .font(.headline)
+        VStack(alignment: .leading) {
+            Text(scrum.title)
+                .font(.headline)
+        }
     }
 }
 
@@ -17,4 +19,4 @@ struct CardView_Previews: PreviewProvider {
     }
 }
 
-// Creting a Card View Step 6
+// Creting a Card View Step 7
