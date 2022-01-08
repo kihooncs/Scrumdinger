@@ -18,4 +18,4 @@ struct ScrumdingerApp: App {
     }
 }
 
-// creating a navigation hierarchy
+// Creating the Edit View - Introduction
