@@ -18,4 +18,4 @@ struct ScrumdingerApp: App {
     }
 }
 
-// Creating the Edit View Section 3
+// Binding states - intro
