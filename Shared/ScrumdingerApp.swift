@@ -18,4 +18,4 @@ struct ScrumdingerApp: App {
     }
 }
 
-// Binding states - intro part
+// Binding states - intro part <- do this
