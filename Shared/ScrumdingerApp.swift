@@ -18,4 +18,4 @@ struct ScrumdingerApp: App {
     }
 }
 
-// Passing Data with Bindings - Add a theme picker (2 of 6) - step 8 <- work on it next time
+// Passing Data with Bindings - Add a theme picker (2 of 6) - step 8 <- work on it next time ..
